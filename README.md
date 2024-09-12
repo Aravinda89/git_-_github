@@ -1,2 +1,2 @@
-# git_-_github
+# git_github
 Git and GitHub
