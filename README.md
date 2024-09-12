@@ -1,2 +1,2 @@
 # git_github
-Git and GitHub
+[Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github) course codes
