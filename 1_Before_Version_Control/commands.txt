@@ -1,2 +1,4 @@
+# Change in code
 diff rearrange1.py rearrange2.py
 diff -u rearrange1.py rearrange2.py
+diff -u
