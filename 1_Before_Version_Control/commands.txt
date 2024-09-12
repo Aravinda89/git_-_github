@@ -1,6 +1,7 @@
 # Change in code
 diff rearrange1.py rearrange2.py
 diff -u rearrange1.py rearrange2.py
-diff -u rearrange1.py rearrange2.py>rearrange_change.diff
+diff -u rearrange1.py rearrange2.py > rearrange_change.diff
 
 # Patch
+patch cpu_usage.py < cpu_usage.diff
