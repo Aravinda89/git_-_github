@@ -2,6 +2,7 @@
 diff rearrange1.py rearrange2.py
 diff -u rearrange1.py rearrange2.py
 diff -u rearrange1.py rearrange2.py > rearrange_change.diff
+wdiff rearrange1.py rearrange2.py
 
 # Patch
 patch cpu_usage.py < cpu_usage.diff
