@@ -6,7 +6,10 @@ cd checks
 git init
 
 git status
-git add disk_usage.py 
+git add disk_usage.py
 git status
 
 git commit
+
+git add disk_usage.py
+git commit -m 'Add periods to the end of sentences.'
