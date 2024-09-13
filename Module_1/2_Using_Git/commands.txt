@@ -18,3 +18,5 @@ git add disk_usage.py
 # Modified, Staged, commit
 
 chmod +x all_checks.py
+
+https://commit.style/
