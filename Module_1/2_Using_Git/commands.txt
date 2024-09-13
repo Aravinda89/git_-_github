@@ -1,5 +1,6 @@
 git config --global user.email "me@example.com"
 git config --global user.name "My name"
+git config -l
 
 mkdir checks
 cd checks
@@ -10,8 +11,10 @@ git add disk_usage.py
 git status
 
 git commit
-
-git add disk_usage.py
 git commit -m 'Add periods to the end of sentences.'
 
+git add disk_usage.py
+
 # Modified, Staged, commit
+
+chmod +x all_checks.py
