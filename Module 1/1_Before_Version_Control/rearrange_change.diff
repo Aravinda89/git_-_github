@@ -1,0 +1,11 @@
+--- rearrange1.py	2024-09-12 15:23:50.770942600 +0530
++++ rearrange2.py	2024-09-12 15:24:25.638079000 +0530
+@@ -4,7 +4,7 @@
+ 
+ def rearrange_name(name):
+ 
+-    result = re.search(r"^([\w .]*), ([\w .]*)$", name)
++    result = re.search(r"^([\w .-]*), ([\w .-]*)$", name)
+ 
+     if result == None:
+ 
