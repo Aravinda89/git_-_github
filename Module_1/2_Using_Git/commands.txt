@@ -1,0 +1,12 @@
+git config --global user.email "me@example.com"
+git config --global user.name "My name"
+
+mkdir checks
+cd checks
+git init
+
+git status
+git add disk_usage.py 
+git status
+
+git commit
