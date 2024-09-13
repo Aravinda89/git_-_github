@@ -13,3 +13,5 @@ git commit
 
 git add disk_usage.py
 git commit -m 'Add periods to the end of sentences.'
+
+# Modified, Staged, commit
