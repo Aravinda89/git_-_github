@@ -20,3 +20,13 @@ git add disk_usage.py
 chmod +x all_checks.py
 
 https://commit.style/
+
+
+
+# Advanced Git Interactions
+
+git commit -a -m "Call check_reboot from main, exit with 1 on error"
+git log -p
+
+
+
