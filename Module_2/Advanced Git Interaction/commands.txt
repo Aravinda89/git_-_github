@@ -6,8 +6,8 @@ git log
 git show 'commit_id'
 git log --stat
 
-
-git add -p
 git diff
-git diff --staged
+git add -p
+git diff --staged # changes that are staged but not committed
+
 git commit -m 'Add a message when everything is ok'
