@@ -32,7 +32,7 @@ git show
 git log --stat
 
 
-git  add -p
+git add -p
 git diff
 git diff --staged
 git commit -m 'Add a message when everything is ok'
