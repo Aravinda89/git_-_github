@@ -12,3 +12,8 @@ git commit --amend
 git revert HEAD
 git log -p -2
 
+# Identifying a commit
+git log -2
+git show 30e70712882267ca2dd749acfa02ea3aacfd0b24
+git show 30e7
+git revert 30e7
