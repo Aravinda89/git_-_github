@@ -1,0 +1,14 @@
+# Undoing Before commiting
+git checkout all_checks.py # discard changes in working directory, not staged
+git add *
+git reset HEAD output.txt #  to unstage
+
+# Amending Commits  to modify and add changes to the most recent commit. 
+# only do in Local commits
+touch auto-update.py
+git commit --amend
+
+# Rollbacks
+git revert HEAD
+git log -p -2
+
