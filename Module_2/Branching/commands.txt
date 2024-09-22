@@ -12,3 +12,11 @@ git branch -d even-better-feature
 
 # Merging
 git merge even-better-feature
+
+# Merge conflicts
+git checkout even-better-feature 
+git merge even-better-feature
+git add free_memory.py
+
+git log --graph --oneline
+git merge --abort
