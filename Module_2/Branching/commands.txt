@@ -9,6 +9,8 @@ git checkout master
 git branch
 git branch -d new-feature
 git branch -d even-better-feature
+git branch -D even-better-feature
+
 
 # Merging
 git merge even-better-feature
