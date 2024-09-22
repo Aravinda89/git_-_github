@@ -4,7 +4,7 @@ git branch new-feature
 git checkout new-feature
 git checkout -b even-better-feature
 
-#Working with branches
+# Working with branches
 git checkout master
 git branch
 git branch -d new-feature
