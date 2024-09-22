@@ -8,4 +8,6 @@ git checkout -b even-better-feature
 git checkout master
 git branch
 git branch -d new-feature
-git branch -d even-better-feature 
+git branch -d even-better-feature
+
+# Merging
