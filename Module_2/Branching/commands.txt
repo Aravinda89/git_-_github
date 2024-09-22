@@ -1,5 +1,12 @@
+# Branching and Merging
 git branch
 git branch new-feature
 git checkout new-feature
 
 git checkout -b even-better-feature
+
+#Working with branches
+git checkout master
+git branch
+git branch -d new-feature
+git branch -d even-better-feature 
