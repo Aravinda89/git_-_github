@@ -1,0 +1,5 @@
+git branch
+git branch new-feature
+git checkout new-feature
+
+git checkout -b even-better-feature
