@@ -11,3 +11,4 @@ git branch -d new-feature
 git branch -d even-better-feature
 
 # Merging
+git merge even-better-feature
