@@ -3,3 +3,14 @@ git remote -v
 git remote show origin
 git branch -r
 git status
+
+# Fetching new changes
+git remote show origin
+git fetch
+git log origin/main
+
+# Updating the local repository
+git pull
+git -log -p -1
+git remote show origin
+git checkout experimental 
