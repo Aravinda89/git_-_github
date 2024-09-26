@@ -1,0 +1,5 @@
+# Working with remotes
+git remote -v
+git remote show origin
+git branch -r
+git status
