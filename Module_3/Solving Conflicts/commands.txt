@@ -6,3 +6,21 @@ git pull
 git log --graph --oneline --all
 git log -p origin/master
 
+# Pushing remote branches
+git checkout -b refactor
+git commit -a -m 'Create wrapper function for check_disk_full'
+git push -u origin refactor
+
+# Rebasing your changes
+git checkout master
+git pull
+git log --graph --oneline --all
+git checkout refactor
+git rebase master
+
+git checkout master
+git merge refactor
+
+git push --delete origin refactor
+git branch -d refactor
+git push
