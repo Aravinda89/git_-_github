@@ -24,3 +24,12 @@ git merge refactor
 git push --delete origin refactor
 git branch -d refactor
 git push
+
+# Another Rebasing 
+git commit -a -m 'Add a simple network connectivity check'
+git fetch
+git rebase origin/master
+git rebase --continue
+git log --graph --oneline
+git push
+
