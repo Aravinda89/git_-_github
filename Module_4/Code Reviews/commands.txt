@@ -1,0 +1,4 @@
+# How to use code reviews
+git commit -a --amend
+git status
+git push -f
